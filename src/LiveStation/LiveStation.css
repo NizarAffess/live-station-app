@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 100%;
+  display: grid;
+  grid-gap: 15px;
+  padding: 2%;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.default {
+  grid-template-columns: auto auto auto;
+}
+
+.double {
+  grid-template-columns: auto auto;
+}
+
+.single {
+  grid-template-columns: auto;
+}
+
+.video-box {
+  width: 100%;
+  max-height: 90vh;
+  aspect-ratio: 16/9;
+}
+
+.video-title {
+  margin-bottom: 1em;
+}
+
+.number-controls {
+  display: flex;
+}
+
+.number-control {
+  cursor: pointer;
+  display: flex;
+  margin: 5px 7px;
+}
+
+.number-control>* {
+  margin: 5px;
+}
+
+.link-controls>* {
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 18px;
+}
